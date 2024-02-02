@@ -1,0 +1,19 @@
+1) Instagram.com
+157.240.22.174
+United States of America
+
+2) Sephora.com
+23.206.4.124
+United States of America
+
+3) aritzia.com
+18.244.214.56
+United States of America
+
+4) Chat.openai.com
+172.64.150.28
+United States of America
+
+5) mcdonalds.com
+44.208.147.61
+United States of America

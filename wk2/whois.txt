@@ -1,0 +1,322 @@
+IBM: 
+Domain Name: ibm.com
+Registry Domain ID: 1555443_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.corporatedomains.com
+Registrar URL: www.cscprotectsbrands.com
+Updated Date: 2023-03-16T01:11:31Z
+Creation Date: 1986-03-19T00:00:00Z
+Registrar Registration Expiration Date: 2024-03-20T04:00:00Z
+Registrar: CSC CORPORATE DOMAINS, INC.
+Sponsoring Registrar IANA ID: 299
+Registrar Abuse Contact Email: email@cscglobal.com
+Registrar Abuse Contact Phone: +1.8887802723
+Domain Status: clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+Domain Status: serverDeleteProhibited http://www.icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited http://www.icann.org/epp#serverTransferProhibited
+Domain Status: serverUpdateProhibited http://www.icann.org/epp#serverUpdateProhibited
+Registry Registrant ID: 
+Registrant Name: IBM DNS Admin
+Registrant Organization: International Business Machines Corporation
+Registrant Street: New Orchard Road
+Registrant City: Armonk
+Registrant State/Province: NY
+Registrant Postal Code: 10504
+Registrant Country: US
+Registrant Phone: +1.9147654227
+Registrant Phone Ext: 
+Registrant Fax: +1.914765437
+Registrant Fax Ext: 
+Registrant Email: email@us.ibm.com
+Registry Admin ID: 
+Admin Name: IBM Corporation
+Admin Organization: International Business Machines (IBM)
+Admin Street: New Orchard Road
+Admin City: Armonk
+Admin State/Province: NY
+Admin Postal Code: 10598
+Admin Country: US
+Admin Phone: +1.9147654227
+Admin Phone Ext: 
+Admin Fax: +1.9147654370
+Admin Fax Ext: 
+Admin Email: email@us.ibm.com
+Registry Tech ID: 
+Tech Name: IBM Corporation
+Tech Organization: International Business Machines (IBM)
+Tech Street: New Orchard Road
+Tech City: Armonk
+Tech State/Province: NY
+Tech Postal Code: 10598
+Tech Country: US
+Tech Phone: +1.9192544441
+Tech Phone Ext: 
+Tech Fax: +1.9147654370
+Tech Fax Ext: 
+Tech Email: email@us.ibm.com
+Name Server: ns1-99.akam.net
+Name Server: usc3.akam.net
+Name Server: usc2.akam.net
+Name Server: eur2.akam.net
+Name Server: ns1-206.akam.net
+Name Server: asia3.akam.net
+Name Server: usw2.akam.net
+Name Server: eur5.akam.net
+
+
+Amazon: 
+Domain Name: amazon.com
+Registry Domain ID: 281209_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2023-05-16T18:56:31+0000
+Creation Date: 1994-11-01T05:00:00+0000
+Registrar Registration Expiration Date: 2024-10-30T07:00:00+0000
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: email@markmonitor.com
+Registrar Abuse Contact Phone: +1.2086851750
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+Registry Registrant ID: 
+Registrant Name: Hostmaster, Amazon Legal Dept.
+Registrant Organization: Amazon Technologies, Inc.
+Registrant Street: P.O. Box 8102
+Registrant City: Reno
+Registrant State/Province: NV
+Registrant Postal Code: 89507
+Registrant Country: US
+Registrant Phone: +1.2062664064
+Registrant Phone Ext: 
+Registrant Fax: +1.2062667010
+Registrant Fax Ext: 
+Registrant Email: email@amazon.com
+Registry Admin ID: 
+Admin Name: Hostmaster, Amazon Legal Dept.
+Admin Organization: Amazon Technologies, Inc.
+Admin Street: P.O. Box 8102
+Admin City: Reno
+Admin State/Province: NV
+Admin Postal Code: 89507
+Admin Country: US
+Admin Phone: +1.2062664064
+Admin Phone Ext: 
+Admin Fax: +1.2062667010
+Admin Fax Ext: 
+Admin Email: email@amazon.com
+Registry Tech ID: 
+Tech Name: Hostmaster, Amazon Legal Dept.
+Tech Organization: Amazon Technologies, Inc.
+Tech Street: P.O. Box 8102
+Tech City: Reno
+Tech State/Province: NV
+Tech Postal Code: 89507
+Tech Country: US
+Tech Phone: +1.2062664064
+Tech Phone Ext: 
+Tech Fax: +1.2062667010
+Tech Fax Ext: 
+Tech Email: email@amazon.com
+Name Server: ns2.amzndns.com
+Name Server: ns1.amzndns.com
+Name Server: ns2.amzndns.org
+Name Server: ns1.amzndns.co.uk
+Name Server: ns2.amzndns.co.uk
+Name Server: ns1.amzndns.net
+Name Server: ns2.amzndns.net
+Name Server: ns1.amzndns.org
+
+
+Walmart:
+Domain Name: walmart.com
+Registry Domain ID: 269816_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.corporatedomains.com
+Registrar URL: www.cscprotectsbrands.com
+Updated Date: 2023-08-28T16:11:03Z
+Creation Date: 1995-02-23T00:00:00Z
+Registrar Registration Expiration Date: 2024-09-23T19:29:40Z
+Registrar: CSC CORPORATE DOMAINS, INC.
+Sponsoring Registrar IANA ID: 299
+Registrar Abuse Contact Email: email@cscglobal.com
+Registrar Abuse Contact Phone: +1.8887802723
+Domain Status: clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+Domain Status: serverDeleteProhibited http://www.icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited http://www.icann.org/epp#serverTransferProhibited
+Domain Status: serverUpdateProhibited http://www.icann.org/epp#serverUpdateProhibited
+Registry Registrant ID: 
+Registrant Name: Not Disclosed
+Registrant Organization: Not Disclosed
+Registrant Street: Not Disclosed
+Registrant City: Bentonville
+Registrant State/Province: AR
+Registrant Postal Code: 72716-0520
+Registrant Country: US
+Registrant Phone: +Not Disclosed
+Registrant Phone Ext: 
+Registrant Fax: +Not Disclosed
+Registrant Fax Ext: 
+Registrant Email: Not Disclosed
+Registry Admin ID: 
+Admin Name: Not Disclosed
+Admin Organization: Not Disclosed
+Admin Street: Not Disclosed
+Admin City: Bentonville
+Admin State/Province: AR
+Admin Postal Code: 72716-0520
+Admin Country: US
+Admin Phone: +Not Disclosed
+Admin Phone Ext: 
+Admin Fax: +Not Disclosed
+Admin Fax Ext: 
+Admin Email: Not Disclosed
+Registry Tech ID: 
+Tech Name: Not Disclosed
+Tech Organization: Not Disclosed
+Tech Street: Not Disclosed
+Tech City: Bentonville
+Tech State/Province: AR
+Tech Postal Code: 72716-0560
+Tech Country: US
+Tech Phone: +Not Disclosed
+Tech Phone Ext: 
+Tech Fax: +Not Disclosed
+Tech Fax Ext: 
+Tech Email: Not Disclosed
+Name Server: pdnswm2.ultradns.net
+Name Server: pdnswm6.ultradns.co.uk
+Name Server: pdnswm1.ultradns.net
+Name Server: a8-66.akam.net
+Name Server: pdnswm5.ultradns.info
+Name Server: a1-185.akam.net
+Name Server: a10-66.akam.net
+Name Server: a3-64.akam.net
+Name Server: a22-67.akam.net
+Name Server: a5-65.akam.net
+Name Server: pdnswm4.ultradns.org
+Name Server: pdnswm3.ultradns.org
+
+
+Costco: 
+Domain Name: costco.com
+Registry Domain ID: 1961320_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.corporatedomains.com
+Registrar URL: www.cscprotectsbrands.com
+Updated Date: 2023-03-14T01:21:37Z
+Creation Date: 1997-03-17T00:00:00Z
+Registrar Registration Expiration Date: 2024-03-18T04:00:00Z
+Registrar: CSC CORPORATE DOMAINS, INC.
+Sponsoring Registrar IANA ID: 299
+Registrar Abuse Contact Email: email@cscglobal.com
+Registrar Abuse Contact Phone: +1.8887802723
+Domain Status: clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+Domain Status: serverDeleteProhibited http://www.icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited http://www.icann.org/epp#serverTransferProhibited
+Domain Status: serverUpdateProhibited http://www.icann.org/epp#serverUpdateProhibited
+Registry Registrant ID: 
+Registrant Name: Costco Wholesale Membership Inc.
+Registrant Organization: Costco Wholesale Membership, Inc.
+Registrant Street: 999 Lake Drive
+Registrant City: Issaquah
+Registrant State/Province: WA
+Registrant Postal Code: 98027
+Registrant Country: US
+Registrant Phone: +1.4253138100
+Registrant Phone Ext: 
+Registrant Fax: +1.4254273120
+Registrant Fax Ext: 
+Registrant Email: email@costco.com
+Registry Admin ID: 
+Admin Name: Costco Wholesale Membership Inc.
+Admin Organization: Costco Wholesale Membership, Inc.
+Admin Street: 999 Lake Drive
+Admin City: Issaquah
+Admin State/Province: WA
+Admin Postal Code: 98027
+Admin Country: US
+Admin Phone: +1.4253138100
+Admin Phone Ext: 
+Admin Fax: +1.4254273120
+Admin Fax Ext: 
+Admin Email: email@costco.com
+Registry Tech ID: 
+Tech Name: Costco Wholesale Membership Inc.
+Tech Organization: Costco Wholesale Membership, Inc.
+Tech Street: 999 Lake Dr
+Tech City: Issaquah
+Tech State/Province: WA
+Tech Postal Code: 98027
+Tech Country: US
+Tech Phone: +1.4253138100
+Tech Phone Ext: 
+Tech Fax: +1.4254273120
+Tech Fax Ext: 
+Tech Email: email@costco.com
+Name Server: a14-67.akam.net
+Name Server: a28-66.akam.net
+Name Server: a9-66.akam.net
+Name Server: a5-64.akam.net
+Name Server: a6-64.akam.net
+Name Server: a1-116.akam.net
+
+
+Starbucks:
+Domain Name: starbucks.com
+Registry Domain ID: 993367_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.corporatedomains.com
+Registrar URL: www.cscprotectsbrands.com
+Updated Date: 2023-10-20T01:12:10Z
+Creation Date: 1993-10-25T00:00:00Z
+Registrar Registration Expiration Date: 2024-10-24T04:00:00Z
+Registrar: CSC CORPORATE DOMAINS, INC.
+Sponsoring Registrar IANA ID: 299
+Registrar Abuse Contact Email: email@cscglobal.com
+Registrar Abuse Contact Phone: +1.8887802723
+Domain Status: clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+Domain Status: serverDeleteProhibited http://www.icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited http://www.icann.org/epp#serverTransferProhibited
+Domain Status: serverUpdateProhibited http://www.icann.org/epp#serverUpdateProhibited
+Registry Registrant ID: 
+Registrant Name: Internet Hostmaster
+Registrant Organization: Starbucks Coffee Company
+Registrant Street: 2401 Utah Avenue S, #800
+Registrant City: Seattle
+Registrant State/Province: WA
+Registrant Postal Code: 98134
+Registrant Country: US
+Registrant Phone: +1.2063181575
+Registrant Phone Ext: 
+Registrant Fax: +1.2063182439
+Registrant Fax Ext: 
+Registrant Email: email@starbucks.com
+Registry Admin ID: 
+Admin Name: Internet Hostmaster
+Admin Organization: Starbucks Coffee Company
+Admin Street: 2401 Utah Avenue S, 800MS DOMAIN-1
+Admin City: Seattle
+Admin State/Province: WA
+Admin Postal Code: 98134
+Admin Country: US
+Admin Phone: +1.2063181575
+Admin Phone Ext: 
+Admin Fax: +1.2063182439
+Admin Fax Ext: 
+Admin Email: email@starbucks.com
+Registry Tech ID: 
+Tech Name: Internet Hostmaster
+Tech Organization: Starbucks Coffee Company
+Tech Street: 2401 Utah Avenue S, #800
+Tech City: Seattle
+Tech State/Province: WA
+Tech Postal Code: 98134
+Tech Country: US
+Tech Phone: +1.2063181575
+Tech Phone Ext: 
+Tech Fax: +1.2063182439
+Tech Fax Ext: 
+Tech Email: email@starbucks.com
+Name Server: udns1.cscdns.net
+Name Server: udns2.cscdns.uk
+

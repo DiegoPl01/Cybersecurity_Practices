@@ -1,0 +1,99 @@
+GEORGE BROWN: 
+
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-01 23:59 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.0081s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.81 seconds
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap -p 80 georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 00:00 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.0084s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.09 seconds
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap -p 22-443 georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 00:01 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.0082s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+Not shown: 419 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 3.08 seconds
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap -F georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 00:02 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.0081s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+Not shown: 97 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.91 seconds
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~#
+
+
+
+STARBUCKS: 
+
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap starbucks.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 00:06 UTC
+Nmap scan report for starbucks.ca (23.36.93.238)
+Host is up (0.013s latency).
+rDNS record for 23.36.93.238: a23-36-93-238.deploy.static.akamaitechnologies.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.57 seconds
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap -p 443 starbucks.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 00:07 UTC
+Nmap scan report for starbucks.ca (23.36.93.238)
+Host is up (0.014s latency).
+rDNS record for 23.36.93.238: a23-36-93-238.deploy.static.akamaitechnologies.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.10 seconds
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap -p 80-443 starbucks.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 00:07 UTC
+Nmap scan report for starbucks.ca (23.36.93.238)
+Host is up (0.013s latency).
+rDNS record for 23.36.93.238: a23-36-93-238.deploy.static.akamaitechnologies.com
+Not shown: 362 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.83 seconds
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# nmap -F starbucks.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-02-02 00:08 UTC
+Nmap scan report for starbucks.ca (23.36.93.238)
+Host is up (0.013s latency).
+rDNS record for 23.36.93.238: a23-36-93-238.deploy.static.akamaitechnologies.com
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.13 seconds
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~#
+

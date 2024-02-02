@@ -1,0 +1,3 @@
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# traceroute 138.197.168.130
+traceroute to 138.197.168.130 (138.197.168.130), 30 hops max, 60 byte packets
+ 1  lamponubuntu2204-s-1vcpu-1gb-tor1-01 (138.197.168.130)  0.067 ms  0.013 ms  0.014 ms

@@ -1,0 +1,12 @@
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# ping 138.197.168.130 -w 5
+PING 138.197.168.130 (138.197.168.130) 56(84) bytes of data.
+64 bytes from 138.197.168.130: icmp_seq=1 ttl=64 time=0.078 ms
+64 bytes from 138.197.168.130: icmp_seq=2 ttl=64 time=0.058 ms
+64 bytes from 138.197.168.130: icmp_seq=3 ttl=64 time=0.056 ms
+64 bytes from 138.197.168.130: icmp_seq=4 ttl=64 time=0.082 ms
+64 bytes from 138.197.168.130: icmp_seq=5 ttl=64 time=0.075 ms
+
+--- 138.197.168.130 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4081ms
+rtt min/avg/max/mdev = 0.056/0.069/0.082/0.010 ms
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~#

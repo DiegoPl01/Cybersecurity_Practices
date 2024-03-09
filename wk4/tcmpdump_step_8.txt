@@ -1,0 +1,12 @@
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# tcpdump -n -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+04:28:52.944018 IP 138.197.168.130.22 > 99.230.233.63.50341: Flags [P.], seq 2510657824:2510657932, ack 156752074, win 3147, length 108
+04:28:52.944117 IP 138.197.168.130.22 > 99.230.233.63.50341: Flags [P.], seq 108:264, ack 1, win 3147, length 156
+04:28:52.944331 IP 138.197.168.130.22 > 99.230.233.63.50341: Flags [P.], seq 264:368, ack 1, win 3147, length 104
+04:28:52.958027 IP 99.230.233.63.50341 > 138.197.168.130.22: Flags [.], ack 368, win 2053, length 0
+^C
+4 packets captured
+13 packets received by filter
+0 packets dropped by kernel
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~#

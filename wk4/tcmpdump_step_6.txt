@@ -1,0 +1,6 @@
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# tcpdump -w 0001.pcap -i eth0
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+^C609 packets captured
+625 packets received by filter
+0 packets dropped by kernel
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~#

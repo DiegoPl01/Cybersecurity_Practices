@@ -1,0 +1,23 @@
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+04:30:20.552653 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 2510661968:2510662076, ack 156752362, win 3147, length 108
+04:30:20.552954 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 108:144, ack 1, win 3147, length 36
+04:30:20.553037 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 144:196, ack 1, win 3147, length 52
+04:30:20.553127 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 196:264, ack 1, win 3147, length 68
+04:30:20.553204 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 264:332, ack 1, win 3147, length 68
+04:30:20.553306 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 332:368, ack 1, win 3147, length 36
+04:30:20.560769 IP cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 2051, length 0
+04:30:20.643963 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 20.204.165.90.42934: Flags [P.], seq 1103588170:1103588222, ack 1634702793, win 502, options [nop,nop,TS val 5688155 ecr 571402227], length 52
+04:30:20.657465 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 368:604, ack 1, win 3147, length 236
+04:30:20.657629 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 604:852, ack 1, win 3147, length 248
+04:30:20.659289 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 852:2120, ack 1, win 3147, length 1268
+04:30:20.680285 IP cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 852, win 2049, length 0
+04:30:20.684692 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 2120:2364, ack 1, win 3147, length 244
+04:30:20.684977 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 2364:2400, ack 1, win 3147, length 36
+04:30:20.699354 IP cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2400, win 2053, length 0
+^C
+15 packets captured
+34 packets received by filter
+0 packets dropped by kernel
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~#

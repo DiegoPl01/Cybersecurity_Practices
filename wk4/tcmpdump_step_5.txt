@@ -1,0 +1,57 @@
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+04:20:02.613383 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 20.204.165.90.42350: Flags [F.], seq 1216890451, ack 623681437, win 502, options [nop,nop,TS val 5070124 ecr 570787894], length 0
+        0x0000:  fe00 0000 0101 a6f7 9ded 7f2e 0800 4500  ..............E.
+        0x0010:  0034 4125 4000 4006 0c31 8ac5 a882 14cc  .4A%@.@..1......
+        0x0020:  a55a 0016 a56e 4888 4653 252c 9f9d 8011  .Z...nH.FS%,....
+        0x0030:  01f6 ed94 0000 0101 080a 004d 5d2c 2205  ...........M],".
+        0x0040:  8836                                     .6
+04:20:02.614593 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 2510505540:2510505648, ack 156750866, win 3147, length 108
+        0x0000:  fe00 0000 0101 a6f7 9ded 7f2e 0800 4510  ..............E.
+        0x0010:  0094 2dbc 4000 4006 8c2a 8ac5 a882 63e6  ..-.@.@..*....c.
+        0x0020:  e93f 0016 c4a5 95a3 4644 0957 d412 5018  .?......FD.W..P.
+        0x0030:  0c4b 80f4 0000 15ba 4089 af8d d262 5549  .K......@....bUI
+        0x0040:  23c0 e08f 4d92 300a 2d6f 5510 2355 de7c  #...M.0.-oU.#U.|
+        0x0050:  aabb bdb6 8785 b6de 6fa0 aee7 a791 5d32  ........o.....]2
+        0x0060:  bef3 4fe2 2d4c 495a 2e0f aee4 dbb9 caf2  ..O.-LIZ........
+        0x0070:  f41b 9caa 0049 2777 c47d d6b3 42d8 062f  .....I'w.}..B../
+        0x0080:  cf35 dde9 78eb 7bab 73d4 1d52 7303 56ac  .5..x.{.s..Rs.V.
+        0x0090:  62cc f704 c103 9eff cbf3 f3c8 8922 10cd  b............"..
+        0x00a0:  2e8e                                     ..
+04:20:02.614692 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 108:264, ack 1, win 3147, length 156
+        0x0000:  fe00 0000 0101 a6f7 9ded 7f2e 0800 4510  ..............E.
+        0x0010:  00c4 2dbd 4000 4006 8bf9 8ac5 a882 63e6  ..-.@.@.......c.
+        0x0020:  e93f 0016 c4a5 95a3 46b0 0957 d412 5018  .?......F..W..P.
+        0x0030:  0c4b 8124 0000 264e 50ae e83e 1ac9 ac97  .K.$..&NP..>....
+        0x0040:  40d7 5b4d cd72 8008 eec0 d26b aff3 cb67  @.[M.r.....k...g
+        0x0050:  a153 a948 7319 9703 76dc f482 6f1b f12e  .S.Hs...v...o...
+        0x0060:  db0d e857 d4a6 a3d8 3402 7f54 77dc 0bd8  ...W....4..Tw...
+        0x0070:  b78c 40fd dea8 ffa3 4c04 bd55 97bd 287e  ..@.....L..U..(~
+        0x0080:  ec4c d34a 8740 dbe2 b3a1 7cfd bb6b 0e45  .L.J.@....|..k.E
+        0x0090:  5193 9d41 5118 8d10 d878 b612 b831 b50a  Q..AQ....x...1..
+        0x00a0:  da54 926e 5573 fe8b f16e cf04 53eb c5cf  .T.nUs...n..S...
+        0x00b0:  b373 d3e7 819d 14d4 ee99 f264 6c60 ed52  .s.........dl`.R
+        0x00c0:  9bf4 fad1 7ef2 d92d 2b2c 5412 48c1 a738  ....~..-+,T.H..8
+        0x00d0:  dc4b                                     .K
+04:20:02.614815 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 264:368, ack 1, win 3147, length 104
+        0x0000:  fe00 0000 0101 a6f7 9ded 7f2e 0800 4510  ..............E.
+        0x0010:  0090 2dbe 4000 4006 8c2c 8ac5 a882 63e6  ..-.@.@..,....c.
+        0x0020:  e93f 0016 c4a5 95a3 474c 0957 d412 5018  .?......GL.W..P.
+        0x0030:  0c4b 80f0 0000 69e6 e14c 438e 6711 3e8f  .K....i..LC.g.>.
+        0x0040:  098e 8b5f 9214 9658 2982 efbb 5422 462f  ..._...X)...T"F/
+        0x0050:  9082 61bc 18e5 97eb 25f4 d0a6 0aa4 f736  ..a.....%......6
+        0x0060:  394e 225e 297c b0ff 715a 2f07 06ea abd1  9N"^)|..qZ/.....
+        0x0070:  1b31 4c47 c30c 6582 8f1c 99d4 9b98 3bc8  .1LG..e.......;.
+        0x0080:  dab6 7778 1366 14c1 9199 a8c9 288f 59ce  ..wx.f......(.Y.
+        0x0090:  5c1e f2fb 18cc f606 c449 8f1c 681e       \........I..h.
+04:20:02.628995 IP cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 2050, length 0
+        0x0000:  a6f7 9ded 7f2e fe00 0000 0101 0800 4500  ..............E.
+        0x0010:  0028 8843 4000 7806 fa1e 63e6 e93f 8ac5  .(.C@.x...c..?..
+        0x0020:  a882 c4a5 0016 0957 d412 95a3 47b4 5010  .......W....G.P.
+        0x0030:  0802 a7e7 0000 0000                      ........
+^C
+5 packets captured
+44 packets received by filter
+0 packets dropped by kernel
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~#

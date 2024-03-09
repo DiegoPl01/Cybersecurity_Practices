@@ -1,0 +1,143 @@
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+04:21:09.762600 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 2510515408:2510515452, ack 156751050, win 3147, length 44
+04:21:09.762672 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 44:96, ack 1, win 3147, length 52
+04:21:09.762784 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341: Flags [P.], seq 96:268, ack 1, win 3147, length 172
+04:21:09.783036 IP cpe2cfda1a18168-cm00fc8db687e0.cpe.net.cable.rogers.com.50341 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 268, win 2050, length 0
+04:21:11.657681 IP server.startnicebusiness.biz.57582 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [S], seq 1996547002, win 29200, options [mss 1460,sackOK,TS val 3433754454 ecr 0,nop,wscale 7], length 0
+04:21:11.657757 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > server.startnicebusiness.biz.57582: Flags [S.], seq 45091257, ack 1996547003, win 65160, options [mss 1460,sackOK,TS val 1632589624 ecr 3433754454,nop,wscale 7], length 0
+04:21:11.830571 IP server.startnicebusiness.biz.57582 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 3433754614 ecr 1632589624], length 0
+04:21:11.830571 IP server.startnicebusiness.biz.57582 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:23, ack 1, win 229, options [nop,nop,TS val 3433754614 ecr 1632589624], length 22: SSH: SSH-2.0-libssh_0.9.6
+04:21:11.830684 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > server.startnicebusiness.biz.57582: Flags [.], ack 23, win 509, options [nop,nop,TS val 1632589797 ecr 3433754614], length 0
+04:21:11.849254 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > server.startnicebusiness.biz.57582: Flags [P.], seq 1:42, ack 23, win 509, options [nop,nop,TS val 1632589816 ecr 3433754614], length 41: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6
+04:21:12.014831 IP server.startnicebusiness.biz.57582 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 3433754805 ecr 1632589816], length 0
+04:21:12.014884 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > server.startnicebusiness.biz.57582: Flags [P.], seq 42:1154, ack 23, win 509, options [nop,nop,TS val 1632589982 ecr 3433754805], length 1112
+04:21:12.015050 IP server.startnicebusiness.biz.57582 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 23:999, ack 42, win 229, options [nop,nop,TS val 3433754805 ecr 1632589816], length 976
+04:21:12.056849 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > server.startnicebusiness.biz.57582: Flags [.], ack 999, win 502, options [nop,nop,TS val 1632590024 ecr 3433754805], length 0
+04:21:12.193359 IP server.startnicebusiness.biz.57582 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1154, win 246, options [nop,nop,TS val 3433755010 ecr 1632589982], length 0
+04:21:12.195645 IP server.startnicebusiness.biz.57582 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 999:1047, ack 1154, win 246, options [nop,nop,TS val 3433755012 ecr 1632590024], length 48
+04:21:12.195699 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > server.startnicebusiness.biz.57582: Flags [.], ack 1047, win 502, options [nop,nop,TS val 1632590162 ecr 3433755012], length 0
+04:21:12.208000 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > server.startnicebusiness.biz.57582: Flags [P.], seq 1154:1686, ack 1047, win 502, options [nop,nop,TS val 1632590175 ecr 3433755012], length 532
+04:21:12.262697 IP luxembourg.scan.bufferover.run.33362 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.http: Flags [S], seq 878823528, win 64240, options [mss 1460,sackOK,TS val 1202871629 ecr 0], length 0
+04:21:12.262788 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.http > luxembourg.scan.bufferover.run.33362: Flags [S.], seq 1380243960, ack 878823529, win 65160, options [mss 1460,sackOK,TS val 4006889725 ecr 1202871629], length 0
+04:21:12.277550 IP luxembourg.scan.bufferover.run.33362 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 1, win 64240, options [nop,nop,TS val 1202871644 ecr 4006889725], length 0
+04:21:12.277612 IP luxembourg.scan.bufferover.run.33362 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.http: Flags [P.], seq 1:206, ack 1, win 64240, options [nop,nop,TS val 1202871645 ecr 4006889725], length 205: HTTP: GET / HTTP/1.1
+04:21:12.277699 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.http > luxembourg.scan.bufferover.run.33362: Flags [.], ack 206, win 64955, options [nop,nop,TS val 4006889739 ecr 1202871645], length 0
+04:21:12.278606 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.http > luxembourg.scan.bufferover.run.33362: Flags [P.], seq 1:2539, ack 206, win 64955, options [nop,nop,TS val 4006889740 ecr 1202871645], length 2538: HTTP: HTTP/1.1 200 OK
+04:21:12.293383 IP luxembourg.scan.bufferover.run.33362 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 1449, win 63712, options [nop,nop,TS val 1202871660 ecr 4006889740], length 0
+04:21:12.293384 IP luxembourg.scan.bufferover.run.33362 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 2539, win 62622, options [nop,nop,TS val 1202871660 ecr 4006889740], length 0
+04:21:12.293634 IP luxembourg.scan.bufferover.run.33362 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.http: Flags [F.], seq 206, ack 2539, win 63712, options [nop,nop,TS val 1202871660 ecr 4006889740], length 0
+04:21:12.293744 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.http > luxembourg.scan.bufferover.run.33362: Flags [F.], seq 2539, ack 207, win 64954, options [nop,nop,TS val 4006889755 ecr 1202871660], length 0
+04:21:12.308503 IP luxembourg.scan.bufferover.run.33362 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.http: Flags [.], ack 2540, win 63712, options [nop,nop,TS val 1202871675 ecr 4006889755], length 0
+04:21:12.340516 IP server.startnicebusiness.biz.57582 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1686, win 263, options [nop,nop,TS val 3433755163 ecr 1632590175], length 0
+04:21:12.340575 IP server.startnicebusiness.biz.57582 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1047:1063, ack 1686, win 263, options [nop,nop,TS val 3433755164 ecr 1632590175], length 16
+04:21:12.380814 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > server.startnicebusiness.biz.57582: Flags [.], ack 1063, win 502, options [nop,nop,TS val 1632590348 ecr 3433755164], length 0
+04:21:12.510306 IP server.startnicebusiness.biz.57582 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1063:1115, ack 1686, win 263, options [nop,nop,TS val 3433755336 ecr 1632590348], length 52
+04:21:12.510372 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > server.startnicebusiness.biz.57582: Flags [.], ack 1115, win 502, options [nop,nop,TS val 1632590477 ecr 3433755336], length 0
+04:21:12.510532 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > server.startnicebusiness.biz.57582: Flags [P.], seq 1686:1738, ack 1115, win 502, options [nop,nop,TS val 1632590477 ecr 3433755336], length 52
+04:21:12.643764 IP server.startnicebusiness.biz.57582 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1115:1199, ack 1738, win 263, options [nop,nop,TS val 3433755466 ecr 1632590477], length 84
+04:21:12.684832 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > server.startnicebusiness.biz.57582: Flags [.], ack 1199, win 502, options [nop,nop,TS val 1632590652 ecr 3433755466], length 0
+04:21:15.428623 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.45144 > 67.207.67.2.domain: 47554+ [1au] A? repos-droplet.digitalocean.com. (59)
+04:21:15.428733 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.38133 > 67.207.67.2.domain: 65108+ [1au] A? repos-droplet.digitalocean.com. (59)
+04:21:15.428935 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.34994 > 67.207.67.3.domain: Flags [S], seq 1162526360, win 64240, options [mss 1460,sackOK,TS val 2096911569 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+04:21:15.429210 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.44356 > 67.207.67.2.domain: 44463+ [1au] AAAA? repos-droplet.digitalocean.com. (59)
+04:21:15.429298 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.40758 > 67.207.67.2.domain: 32868+ [1au] AAAA? repos-droplet.digitalocean.com. (59)
+04:21:15.430037 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.38133: 65108 2/0/1 A 104.18.154.42, A 104.18.155.42 (91)
+04:21:15.430072 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.45144: 47554 2/0/1 A 104.18.154.42, A 104.18.155.42 (91)
+04:21:15.430143 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.44356: 44463 2/0/1 AAAA 2606:4700::6812:9a2a, AAAA 2606:4700::6812:9b2a (115)
+04:21:15.430225 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.40758: 32868 2/0/1 AAAA 2606:4700::6812:9a2a, AAAA 2606:4700::6812:9b2a (115)
+04:21:15.430437 IP 67.207.67.3.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.34994: Flags [S.], seq 2180114817, ack 1162526361, win 65160, options [mss 1460,sackOK,TS val 3969154020 ecr 2096911569,nop,wscale 9], length 0
+04:21:15.430475 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.34994 > 67.207.67.3.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 2096911570 ecr 3969154020], length 0
+04:21:15.430560 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.34994 > 67.207.67.3.domain: Flags [P.], seq 1:51, ack 1, win 502, options [nop,nop,TS val 2096911570 ecr 3969154020], length 50 40245+ A? repos-droplet.digitalocean.com. (48)
+04:21:15.430860 IP 67.207.67.3.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.34994: Flags [.], ack 51, win 128, options [nop,nop,TS val 3969154021 ecr 2096911570], length 0
+04:21:15.430955 IP 67.207.67.3.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.34994: Flags [P.], seq 1:83, ack 51, win 128, options [nop,nop,TS val 3969154021 ecr 2096911570], length 82 40245 2/0/0 A 104.18.155.42, A 104.18.154.42 (80)
+04:21:15.430972 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.34994 > 67.207.67.3.domain: Flags [.], ack 83, win 502, options [nop,nop,TS val 2096911571 ecr 3969154021], length 0
+04:21:15.431159 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [S], seq 2747020082, win 64800, options [mss 1440,sackOK,TS val 3664333936 ecr 0,nop,wscale 7], length 0
+04:21:15.432863 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [S.], seq 2675485200, ack 2747020083, win 64704, options [mss 1360,sackOK,TS val 1596049705 ecr 3664333936,nop,wscale 13], length 0
+04:21:15.432911 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [.], ack 1, win 507, options [nop,nop,TS val 3664333938 ecr 1596049705], length 0
+04:21:15.433629 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [P.], seq 1:425, ack 1, win 507, options [nop,nop,TS val 3664333938 ecr 1596049705], length 424
+04:21:15.434478 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], ack 425, win 7, options [nop,nop,TS val 1596049707 ecr 3664333938], length 0
+04:21:15.436271 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], seq 1:1349, ack 425, win 8, options [nop,nop,TS val 1596049708 ecr 3664333938], length 1348
+04:21:15.436271 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 1349:4470, ack 425, win 8, options [nop,nop,TS val 1596049708 ecr 3664333938], length 3121
+04:21:15.436324 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [.], ack 1349, win 501, options [nop,nop,TS val 3664333941 ecr 1596049708], length 0
+04:21:15.436348 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [.], ack 4470, win 485, options [nop,nop,TS val 3664333941 ecr 1596049708], length 0
+04:21:15.445633 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [P.], seq 425:505, ack 4470, win 501, options [nop,nop,TS val 3664333950 ecr 1596049708], length 80
+04:21:15.488382 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], ack 505, win 8, options [nop,nop,TS val 1596049761 ecr 3664333950], length 0
+04:21:15.488431 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [P.], seq 505:672, ack 4470, win 501, options [nop,nop,TS val 3664333993 ecr 1596049761], length 167
+04:21:15.489328 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], ack 672, win 7, options [nop,nop,TS val 1596049761 ecr 3664333993], length 0
+04:21:15.502286 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 4470:6311, ack 672, win 8, options [nop,nop,TS val 1596049774 ecr 3664333993], length 1841
+04:21:15.502287 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 6311:7702, ack 672, win 8, options [nop,nop,TS val 1596049774 ecr 3664333993], length 1391
+04:21:15.502287 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], seq 7702:9050, ack 672, win 8, options [nop,nop,TS val 1596049774 ecr 3664333993], length 1348
+04:21:15.502287 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 9050:10484, ack 672, win 8, options [nop,nop,TS val 1596049774 ecr 3664333993], length 1434
+04:21:15.502287 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 10484:14657, ack 672, win 8, options [nop,nop,TS val 1596049774 ecr 3664333993], length 4173
+04:21:15.502377 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], seq 14657:17353, ack 672, win 8, options [nop,nop,TS val 1596049774 ecr 3664333993], length 2696
+04:21:15.502377 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 17353:20221, ack 672, win 8, options [nop,nop,TS val 1596049774 ecr 3664333993], length 2868
+04:21:15.502377 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], seq 20221:26961, ack 672, win 8, options [nop,nop,TS val 1596049774 ecr 3664333993], length 6740
+04:21:15.502377 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 26961:27176, ack 672, win 8, options [nop,nop,TS val 1596049774 ecr 3664333993], length 215
+04:21:15.502377 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], seq 27176:28524, ack 672, win 8, options [nop,nop,TS val 1596049775 ecr 3664333993], length 1348
+04:21:15.502377 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 28524:42301, ack 672, win 8, options [nop,nop,TS val 1596049775 ecr 3664333993], length 13777
+04:21:15.502378 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], seq 42301:46345, ack 672, win 8, options [nop,nop,TS val 1596049775 ecr 3664333993], length 4044
+04:21:15.502378 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], seq 46345:57129, ack 672, win 8, options [nop,nop,TS val 1596049775 ecr 3664333993], length 10784
+04:21:15.502427 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 57129:57602, ack 672, win 8, options [nop,nop,TS val 1596049775 ecr 3664333993], length 473
+04:21:15.502427 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], seq 57602:58950, ack 672, win 8, options [nop,nop,TS val 1596049775 ecr 3664333993], length 1348
+04:21:15.502427 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 58950:68598, ack 672, win 8, options [nop,nop,TS val 1596049775 ecr 3664333993], length 9648
+04:21:15.502487 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [.], ack 68598, win 211, options [nop,nop,TS val 3664334007 ecr 1596049774], length 0
+04:21:15.503365 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], seq 68598:71294, ack 672, win 8, options [nop,nop,TS val 1596049776 ecr 3664334007], length 2696
+04:21:15.503399 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [.], ack 71294, win 196, options [nop,nop,TS val 3664334008 ecr 1596049776], length 0
+04:21:15.503497 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], seq 71294:90166, ack 672, win 8, options [nop,nop,TS val 1596049776 ecr 3664334007], length 18872
+04:21:15.503497 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 90166:95606, ack 672, win 8, options [nop,nop,TS val 1596049776 ecr 3664334007], length 5440
+04:21:15.503534 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [.], ack 95606, win 92, options [nop,nop,TS val 3664334008 ecr 1596049776], length 0
+04:21:15.504128 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [.], ack 95606, win 393, options [nop,nop,TS val 3664334009 ecr 1596049776], length 0
+04:21:15.504335 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], seq 95606:96954, ack 672, win 8, options [nop,nop,TS val 1596049777 ecr 3664334008], length 1348
+04:21:15.504422 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 96954:100950, ack 672, win 8, options [nop,nop,TS val 1596049777 ecr 3664334008], length 3996
+04:21:15.504422 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 100950:107382, ack 672, win 8, options [nop,nop,TS val 1596049777 ecr 3664334008], length 6432
+04:21:15.504478 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [.], ack 107382, win 343, options [nop,nop,TS val 3664334009 ecr 1596049777], length 0
+04:21:15.505082 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], seq 107382:108730, ack 672, win 8, options [nop,nop,TS val 1596049777 ecr 3664334009], length 1348
+04:21:15.505173 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [.], seq 108730:128950, ack 672, win 8, options [nop,nop,TS val 1596049777 ecr 3664334009], length 20220
+04:21:15.505174 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 128950:133302, ack 672, win 8, options [nop,nop,TS val 1596049777 ecr 3664334009], length 4352
+04:21:15.505174 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [P.], seq 133302:134128, ack 672, win 8, options [nop,nop,TS val 1596049777 ecr 3664334009], length 826
+04:21:15.505199 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [.], ack 128950, win 419, options [nop,nop,TS val 3664334010 ecr 1596049777], length 0
+04:21:15.505256 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [.], ack 134128, win 393, options [nop,nop,TS val 3664334010 ecr 1596049777], length 0
+04:21:15.507340 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [F.], seq 672, ack 134128, win 501, options [nop,nop,TS val 3664334012 ecr 1596049777], length 0
+04:21:15.508564 IP6 2606:4700::6812:9a2a.https > 2604:a880:cad:d0::aec:c001.56054: Flags [F.], seq 134128, ack 673, win 8, options [nop,nop,TS val 1596049781 ecr 3664334012], length 0
+04:21:15.508586 IP6 2604:a880:cad:d0::aec:c001.56054 > 2606:4700::6812:9a2a.https: Flags [.], ack 134129, win 501, options [nop,nop,TS val 3664334013 ecr 1596049781], length 0
+04:21:16.090060 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > server.startnicebusiness.biz.57582: Flags [P.], seq 1738:1790, ack 1199, win 502, options [nop,nop,TS val 1632594057 ecr 3433755466], length 52
+04:21:16.252154 IP server.startnicebusiness.biz.57582 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1199:1251, ack 1790, win 263, options [nop,nop,TS val 3433759046 ecr 1632594057], length 52
+04:21:16.252154 IP server.startnicebusiness.biz.57582 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [F.], seq 1251, ack 1790, win 263, options [nop,nop,TS val 3433759046 ecr 1632594057], length 0
+04:21:16.252229 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > server.startnicebusiness.biz.57582: Flags [.], ack 1251, win 502, options [nop,nop,TS val 1632594219 ecr 3433759046], length 0
+04:21:16.255237 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > server.startnicebusiness.biz.57582: Flags [F.], seq 1790, ack 1252, win 502, options [nop,nop,TS val 1632594222 ecr 3433759046], length 0
+04:21:16.376315 IP server.startnicebusiness.biz.57582 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1791, win 263, options [nop,nop,TS val 3433759211 ecr 1632594222], length 0
+04:21:18.264875 IP 67.207.67.3.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.34994: Flags [F.], seq 83, ack 51, win 128, options [nop,nop,TS val 3969156855 ecr 2096911571], length 0
+04:21:18.265060 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.34994 > 67.207.67.3.domain: Flags [F.], seq 51, ack 84, win 502, options [nop,nop,TS val 2096914405 ecr 3969156855], length 0
+04:21:18.265645 IP 67.207.67.3.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.34994: Flags [.], ack 52, win 128, options [nop,nop,TS val 3969156856 ecr 2096914405], length 0
+04:21:20.507611 IP 94.156.8.148.39872 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [S], seq 4118166236, win 65280, options [mss 1360,sackOK,TS val 394228759 ecr 0,nop,wscale 7], length 0
+04:21:20.507714 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 94.156.8.148.39872: Flags [S.], seq 3261683418, ack 4118166237, win 65160, options [mss 1460,sackOK,TS val 1136634951 ecr 394228759,nop,wscale 7], length 0
+04:21:20.601574 IP6 lamponubuntu2204-s-1vcpu-1gb-tor1-01 > _gateway: ICMP6, neighbor solicitation, who has _gateway, length 32
+04:21:20.603055 IP6 _gateway > lamponubuntu2204-s-1vcpu-1gb-tor1-01: ICMP6, neighbor advertisement, tgt is _gateway, length 32
+04:21:20.712227 IP 94.156.8.148.39872 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1, win 510, options [nop,nop,TS val 394228960 ecr 1136634951], length 0
+04:21:20.712227 IP 94.156.8.148.39872 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:13, ack 1, win 510, options [nop,nop,TS val 394228961 ecr 1136634951], length 12: SSH: SSH-2.0-Go
+04:21:20.712390 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 94.156.8.148.39872: Flags [.], ack 13, win 509, options [nop,nop,TS val 1136635156 ecr 394228961], length 0
+04:21:20.724775 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 94.156.8.148.39872: Flags [P.], seq 1:42, ack 13, win 509, options [nop,nop,TS val 1136635168 ecr 394228961], length 41: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6
+04:21:20.894494 IP 94.156.8.148.39872 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 42, win 510, options [nop,nop,TS val 394229140 ecr 1136635168], length 0
+04:21:20.894543 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 94.156.8.148.39872: Flags [P.], seq 42:1154, ack 13, win 509, options [nop,nop,TS val 1136635338 ecr 394229140], length 1112
+04:21:20.895808 IP 94.156.8.148.39872 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 13:1101, ack 42, win 510, options [nop,nop,TS val 394229142 ecr 1136635168], length 1088
+04:21:20.936833 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 94.156.8.148.39872: Flags [.], ack 1101, win 501, options [nop,nop,TS val 1136635381 ecr 394229142], length 0
+04:21:21.061344 IP 94.156.8.148.39872 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1101:1149, ack 1154, win 502, options [nop,nop,TS val 394229315 ecr 1136635338], length 48
+04:21:21.061408 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 94.156.8.148.39872: Flags [.], ack 1149, win 501, options [nop,nop,TS val 1136635505 ecr 394229315], length 0
+04:21:21.066763 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 94.156.8.148.39872: Flags [P.], seq 1154:1758, ack 1149, win 501, options [nop,nop,TS val 1136635510 ecr 394229315], length 604
+04:21:21.210315 IP 94.156.8.148.39872 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1149:1165, ack 1758, win 502, options [nop,nop,TS val 394229489 ecr 1136635510], length 16
+04:21:21.210315 IP 94.156.8.148.39872 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1165:1217, ack 1758, win 502, options [nop,nop,TS val 394229490 ecr 1136635510], length 52
+04:21:21.210433 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 94.156.8.148.39872: Flags [.], ack 1217, win 501, options [nop,nop,TS val 1136635654 ecr 394229489], length 0
+04:21:21.210528 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 94.156.8.148.39872: Flags [P.], seq 1758:1810, ack 1217, win 501, options [nop,nop,TS val 1136635654 ecr 394229489], length 52
+04:21:21.323961 IP 94.156.8.148.39872 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1217:1285, ack 1810, win 502, options [nop,nop,TS val 394229626 ecr 1136635654], length 68
+04:21:21.331574 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 94.156.8.148.39872: Flags [P.], seq 1810:1862, ack 1285, win 501, options [nop,nop,TS val 1136635775 ecr 394229626], length 52
+04:21:21.468004 IP 94.156.8.148.39872 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1285:1369, ack 1862, win 502, options [nop,nop,TS val 394229775 ecr 1136635775], length 84
+04:21:21.508837 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 94.156.8.148.39872: Flags [.], ack 1369, win 501, options [nop,nop,TS val 1136635953 ecr 394229775], length 0
+04:21:23.315492 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 94.156.8.148.39872: Flags [P.], seq 1862:1914, ack 1369, win 501, options [nop,nop,TS val 1136637759 ecr 394229775], length 52
+04:21:23.477006 IP 94.156.8.148.39872 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [F.], seq 1369, ack 1914, win 502, options [nop,nop,TS val 394231755 ecr 1136637759], length 0
+04:21:23.478476 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 94.156.8.148.39872: Flags [F.], seq 1914, ack 1370, win 501, options [nop,nop,TS val 1136637922 ecr 394231755], length 0
+04:21:23.638734 IP 94.156.8.148.39872 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1915, win 502, options [nop,nop,TS val 394231905 ecr 1136637922], length 0
+04:21:25.386049 IP 80.66.83.153.48343 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.12833: Flags [S], seq 311790457, win 1025, options [mss 1460], length 0
+^C04:21:25.927261 IP 170.106.65.35.48642 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [S], seq 1472693308, win 29200, options [mss 1424,sackOK,TS val 1959831264 ecr 0,nop,wscale 7], length 0
+
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~#

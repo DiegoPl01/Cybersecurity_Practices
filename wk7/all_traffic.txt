@@ -1,7 +1,1 @@
-root@comp3134Winter2024:~# tcpdump > all_traffic_20240310_0115.txt
-tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
-listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
-^C894 packets captured
-902 packets received by filter
-6 packets dropped by kernel
-root@comp3134Winter2024:~#
+sudo tcpdump -i any -c 30

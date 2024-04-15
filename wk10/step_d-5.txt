@@ -1,0 +1,11 @@
+1) What do I see?
+
+ANS: 
+
+- It displays the current directory in which the php script is saved and the name of a file  on the same level of wk10 (it's trying to access one level above our origin directory)
+
+2) What sensitive info is there?
+
+ANS:
+
+- The current directory wk10 given and the file name called index.html (something very dangerous due to it shows our working structure of our project)

@@ -1,0 +1,14 @@
+1) What do I see?
+
+ANS: 
+
+- Two warning messages that say the scandir() function failed to open
+a file due to its inexistence in the directory
+
+2) What sensitive info is there?
+
+ANS:
+
+- It displays the file name of the php script running and it shows the
+current directory and path of the files 
+	- 

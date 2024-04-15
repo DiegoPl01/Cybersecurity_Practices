@@ -1,0 +1,4 @@
+For the first problem, I will use basename to get the name of the directory if the
+user gives a path, and then I will concatenate it to the html path so it does not goes outside that directory
+
+For the second problem, I will use the file_exists() method to check if the directory exists, and print an error message if it does not. 

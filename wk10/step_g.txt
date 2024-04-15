@@ -1,0 +1,1 @@
+The info left on the comments are visible to the client since it was an html comment but when it's put in a php comment, those are not visible to the client and therefore the info within the comments are not visible and any sensitive info is protected. The solution is to add php code or delete the comments

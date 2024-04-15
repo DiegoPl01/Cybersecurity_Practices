@@ -1,0 +1,11 @@
+1) What do I see?
+
+ANS: 
+
+- It displays the directory (html) above our main working directory (wk10)
+
+2) What sensitive info is there?
+
+ANS:
+
+- The directory name two levels above, which is called html. 

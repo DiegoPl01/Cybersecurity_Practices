@@ -1,0 +1,7 @@
+1) The searched word is added to the router parameter. I input the word "night" and it directed me to a page with the parameter "night"
+
+2) if the word doesn't exist it will go to another page, read the parameter and will throw a text of "No results found for spaceglider"
+
+3) The website displays "No results found for https://www.dictionary.com/browse/%3Cscript%3Ealert(%2527hello%2527)%3C%2Fscript%3E"
+
+4) It sends me to a page that says "we can't find what you are looking for"

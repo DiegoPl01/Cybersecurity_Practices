@@ -1,0 +1,2 @@
+1) With strip_tags applied, HTML and PHP tags are removed from the input.
+2) With htmlentities applied (commented out), special characters are converted to HTML entities.
